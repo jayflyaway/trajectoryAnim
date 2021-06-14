@@ -1,0 +1,39 @@
+html {
+    font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5px;
+    margin-bottom: 0px;
+    flex-wrap: wrap;
+    color: #7d7d7d;
+    font-size: 12px;
+}
+
+ul li {
+    display: inline-block;
+    width: 257px;
+    text-align: left;
+    padding-right: 10px;
+}
+
+#settings_selects {
+    margin-bottom: 10px;
+}
+
+#settings_selects select {
+    width: 257px;
+    margin-right: 10px;
+    height: 2.5em;
+    border: none;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 0 6px;
+    color: #2f2f2f;
+}
